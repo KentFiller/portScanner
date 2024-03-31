@@ -11,8 +11,8 @@ s.settimeout(5)
 # hackthissite.org ip: "137.74.187.104"
 # ports: 443 (https), 21 (ftp), 22 (ssh)
 
-host = input("Enter the IP you want to scan: ")
-port = int(input("Enter the Port you want to scan: "))
+host = input("Please enter the IP you want to scan: ")
+port = int(input("Please enter the Port you want to scan: "))
 
 def port_scanner(port):
     if s.connect_ex((host, port)):
