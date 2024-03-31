@@ -1,3 +1,6 @@
+# adapted from the youtube video "Python3 For Pentesting - Developing A Port Scanner" 
+# link - "https://www.youtube.com/watch?v=d3D8PAZV51g"
+
 #! usr/bin/python3
 
 import socket
